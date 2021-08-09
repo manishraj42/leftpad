@@ -4,12 +4,15 @@ require_relative "leftpad/version"
 
 module Leftpad
   class Error < StandardError; end
-  def leftpad(chars, filter = ' ')
-    self.rjust(chars, filter)
+  def leftpad
+    puts "happy birthday"
+    
   end
 end
 
 
-class String 
-  include Leftpad
-end
+# class String 
+#   include Leftpad
+# end
+
+
